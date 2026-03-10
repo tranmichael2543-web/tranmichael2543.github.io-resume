@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -140,6 +139,38 @@ li {
     padding: 5px 12px;
     border-radius: 3px;
     color: #b5e853;
+    font-size: 14px;
+}
+
+.software {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.software-tag {
+    background: rgba(99, 192, 245, 0.1);
+    border: 1px solid #63c0f5;
+    padding: 5px 12px;
+    border-radius: 3px;
+    color: #63c0f5;
+    font-size: 14px;
+}
+
+.frameworks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.frameworks-tag {
+    background: rgba(99, 192, 245, 0.1);
+    border: 1px solid #63c0f5;
+    padding: 5px 12px;
+    border-radius: 3px;
+    color: #63c0f5;
     font-size: 14px;
 }
 
